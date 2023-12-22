@@ -1,0 +1,358 @@
+Unity Editor version:    2022.3.14f1 (eff2de9070d8)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1.1 (Build 23B81)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/marissa/Documents/GitHub/Brunos-Island-Adventure/Brunos-Island-Adventure
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60986
+Successfully changed project path to: /Users/marissa/Documents/GitHub/Brunos-Island-Adventure/Brunos-Island-Adventure
+/Users/marissa/Documents/GitHub/Brunos-Island-Adventure/Brunos-Island-Adventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7940873920] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2797154403 [EditorId] 2797154403 [Version] 1048832 [Id] OSXEditor(0,Marissas-MBP.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7940873920] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2797154403 [EditorId] 2797154403 [Version] 1048832 [Id] OSXEditor(0,Marissas-MBP.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 2.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/marissa/Documents/GitHub/Brunos-Island-Adventure/Brunos-Island-Adventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56969
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004697 seconds.
+- Loaded All Assemblies, in  0.294 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.188 seconds
+Domain Reload Profiling: 482ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (188ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (141ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.418 seconds
+Domain Reload Profiling: 901ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (419ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3280 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (124.8 KB). Loaded Objects now: 3743.
+Memory consumption went from 130.7 MB to 130.6 MB.
+Total: 2.740916 ms (FindLiveObjects: 0.099833 ms CreateObjectMapping: 0.046333 ms MarkObjects: 2.499500 ms  DeleteObjects: 0.094583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 855647.502292 seconds.
+  path: Assets/Tiles/Stone Cave Tile.prefab
+  artifactKey: Guid(42849a0e1749342f685046bd89aef695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Stone Cave Tile.prefab using Guid(42849a0e1749342f685046bd89aef695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9741e829e5ff53daccc47dc60604a684') in 0.070687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 2608.473169 seconds.
+  path: Assets/Game Assets/Sprites/Dialogue Icon.png
+  artifactKey: Guid(46baab134f8e9aa41ab51ee1abbc169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Dialogue Icon.png using Guid(46baab134f8e9aa41ab51ee1abbc169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e737ff92eb1a728ee16292ea34a2c69') in 0.235534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.307547 seconds.
+  path: Assets/Game Assets/Terrain/Dungeon Wall Corner Tile.fbx
+  artifactKey: Guid(4d02137d319aa4a48816db86d785e040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/Dungeon Wall Corner Tile.fbx using Guid(4d02137d319aa4a48816db86d785e040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ccca86ac711e303ed2d346fd034e70') in 0.087509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Game Assets/Terrain/River Corner Small Tile.fbx
+  artifactKey: Guid(cc51b3d74e33f1f42911bac28797b2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/River Corner Small Tile.fbx using Guid(cc51b3d74e33f1f42911bac28797b2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc579619a9fea8d90977815232bb142') in 0.027317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game Assets/Terrain/Ground Grass Edge Tile.fbx
+  artifactKey: Guid(c44338b7bc27b1e429e77f725f2fea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/Ground Grass Edge Tile.fbx using Guid(c44338b7bc27b1e429e77f725f2fea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e25c994cfedec2a4831c38bad90be2c') in 0.011303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Game Assets/Terrain/Path Bend Tile.fbx
+  artifactKey: Guid(db609e0832134fb499fa7a5cd94bc92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/Path Bend Tile.fbx using Guid(db609e0832134fb499fa7a5cd94bc92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8646e52574aac7b922576cfda2c412') in 0.013853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Game Assets/Terrain/Stone Grass Inner Corner Tile.fbx
+  artifactKey: Guid(65c7f3ab2c18671489930081ec5fbbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/Stone Grass Inner Corner Tile.fbx using Guid(65c7f3ab2c18671489930081ec5fbbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec940ea8a0197994eaedc4c28cbcc016') in 0.021658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Game Assets/Terrain/Stone Grass Waterfall Edge Tile.fbx
+  artifactKey: Guid(0bc4a57a80bfeb64983b20b21fff47a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/Stone Grass Waterfall Edge Tile.fbx using Guid(0bc4a57a80bfeb64983b20b21fff47a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e78c30fc64a657379fcaebf211166e') in 0.023495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Game Assets/Terrain/Path Closed Tile.fbx
+  artifactKey: Guid(6f9ce5f4abcea0046a75a9813d7657ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/Path Closed Tile.fbx using Guid(6f9ce5f4abcea0046a75a9813d7657ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3296bd5df70c2f0946d24fb70a0e5d94') in 0.020977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Game Assets/Terrain/Stone Corner Tile.fbx
+  artifactKey: Guid(5eb447458839db9488207df258cb879b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/Stone Corner Tile.fbx using Guid(5eb447458839db9488207df258cb879b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a1347aed5f4c1c6075451b73f72f31') in 0.007826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Game Assets/Terrain/Stone Grass Edge Tile.fbx
+  artifactKey: Guid(258566153e762df43801c4ed829aeb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/Stone Grass Edge Tile.fbx using Guid(258566153e762df43801c4ed829aeb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426295264e68535cdf81019f66d909b0') in 0.010668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Game Assets/Terrain/Stone Grass Corner Tile.fbx
+  artifactKey: Guid(a3556dddcede7e84288f738424a13445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/Stone Grass Corner Tile.fbx using Guid(a3556dddcede7e84288f738424a13445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b280a1438df6fbee134cef2566b25cf3') in 0.014538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Game Assets/Terrain/Ground Grass Corner Tile.fbx
+  artifactKey: Guid(36cb06729907aad4eb68ce1e40817afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/Ground Grass Corner Tile.fbx using Guid(36cb06729907aad4eb68ce1e40817afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870c550681bc8c9f7707c5652fa85439') in 0.020123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Game Assets/Terrain/River Open Tile.fbx
+  artifactKey: Guid(410c1e0e2c14f8648b796b436a04a0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Terrain/River Open Tile.fbx using Guid(410c1e0e2c14f8648b796b436a04a0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7574adc45a0ca41f3bb46d4de417b2') in 0.008815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.853205 seconds.
+  path: Assets/Game Assets/Nature/Rocks B.fbx
+  artifactKey: Guid(1bd42b273043de946be5fd3fdadc8814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Nature/Rocks B.fbx using Guid(1bd42b273043de946be5fd3fdadc8814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bb944d8fc3c43a864d4dd6123b4848') in 0.018001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Game Assets/Nature/Crops Corn.fbx
+  artifactKey: Guid(7c58f606507de8a4cb60f461ef823da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Nature/Crops Corn.fbx using Guid(7c58f606507de8a4cb60f461ef823da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1c756b43e73cdff8a5fb29e0d7ee25') in 0.030427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Materals/grass.mat
+  artifactKey: Guid(3f16c087dad89440ca3aed5749da558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materals/grass.mat using Guid(3f16c087dad89440ca3aed5749da558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68001aa136d9ae1b0b5cc4897521465') in 0.004000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018461 seconds.
+  path: Assets/Game Assets/Characters/Skeleton Warrior.fbx
+  artifactKey: Guid(648676bc1aed4884f8c7481072a6e4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Characters/Skeleton Warrior.fbx using Guid(648676bc1aed4884f8c7481072a6e4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154e9474dd7b02a2047adb6c6c18310d') in 0.079411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Game Assets/Nature/Palm B.fbx
+  artifactKey: Guid(b0c078bfc3b0af2439b4503fb0900600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Nature/Palm B.fbx using Guid(b0c078bfc3b0af2439b4503fb0900600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdad28264b1f71466a5d40d9d0019469') in 0.016348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Game Assets/Nature/Palm A.fbx
+  artifactKey: Guid(d355263c304596d48b4cc60e7c9a89ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Nature/Palm A.fbx using Guid(d355263c304596d48b4cc60e7c9a89ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07160f88f9de1e63b248cb6bd1f91993') in 0.025703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Game Assets/Nature/Mushroom Group.fbx
+  artifactKey: Guid(962830a2ea0d7bf42aedbbb38b8d82a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Nature/Mushroom Group.fbx using Guid(962830a2ea0d7bf42aedbbb38b8d82a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25d9476fa819babea445712e1047782') in 0.011277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
